@@ -170,3 +170,25 @@ img {
         }
     }
 }
+
+// Post pages
+.post-form-header {
+    padding: 0.5rem;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 2rem;
+    align-items: center;
+
+    & > div:first-child {
+        text-align: center;
+    }
+
+    img {
+        width: 150px;
+    }
+}
+
+@import 'mobile';

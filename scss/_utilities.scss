@@ -160,3 +160,15 @@
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
 }
+
+// Table
+.table {
+    th, td {
+        padding: 1rem;
+        text-align: left;
+    }
+
+    th {
+        background: $light-color;
+    }
+}
